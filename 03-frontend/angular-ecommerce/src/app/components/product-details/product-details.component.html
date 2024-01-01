@@ -1,0 +1,15 @@
+<div *ngIf="product!=undefined;else noProduct" class="detail-section">
+    <div class="container-fluid">
+        <img src="{{product.imageUrl}}" class="detail-img">
+        <h3>{{product.name}}</h3>
+        <div class="privce">{{product.unitPrice|currency:'USD'}}</div>
+        <button (click)="addToCart()" class="btn btn-primary btn-sm">Add To Cart</button>
+        <hr>
+        <h4>Description</h4>
+        <p>{{product.description}}</p>
+        <a routerLink="/products" class="mt-5">Back to Product List</a>
+    </div>
+</div>
+<ng-template #noProduct>
+    <div class="alert alert-warning">Products Can't Find !!!</div>
+</ng-template>
