@@ -1,47 +1,53 @@
 {
-  "hash": "2eaa4006",
-  "browserHash": "dd678fd3",
+  "hash": "ff387ece",
+  "browserHash": "2fe30c1b",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "0630984d",
+      "fileHash": "79c8d985",
       "needsInterop": false
     },
     "@angular/common/http": {
       "src": "../../../../../node_modules/@angular/common/fesm2022/http.mjs",
       "file": "@angular_common_http.js",
-      "fileHash": "84382523",
+      "fileHash": "5e94a0ad",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "c18210ec",
+      "fileHash": "09d7bf33",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "2ac744a1",
+      "fileHash": "d8d80a91",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "701afc8c",
+      "fileHash": "83809780",
       "needsInterop": false
     },
     "@ng-bootstrap/ng-bootstrap": {
       "src": "../../../../../node_modules/@ng-bootstrap/ng-bootstrap/fesm2022/ng-bootstrap.mjs",
       "file": "@ng-bootstrap_ng-bootstrap.js",
-      "fileHash": "f5d3bee8",
+      "fileHash": "3f63f766",
       "needsInterop": false
     },
     "rxjs": {
       "src": "../../../../../node_modules/rxjs/dist/esm5/index.js",
       "file": "rxjs.js",
-      "fileHash": "96976a92",
+      "fileHash": "a57583c4",
+      "needsInterop": false
+    },
+    "@angular/forms": {
+      "src": "../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
+      "file": "@angular_forms.js",
+      "fileHash": "bab200b7",
       "needsInterop": false
     }
   },
@@ -51,6 +57,9 @@
     },
     "chunk-VT2SJOGA": {
       "file": "chunk-VT2SJOGA.js"
+    },
+    "chunk-5QZUIOYW": {
+      "file": "chunk-5QZUIOYW.js"
     },
     "chunk-LYWEOCCW": {
       "file": "chunk-LYWEOCCW.js"

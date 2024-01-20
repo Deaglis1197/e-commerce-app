@@ -33,6 +33,25 @@ export class CartService {
     this.computeCartTotals();
 
   }
+
+  removeToCart(theCartItem:CartItem){
+    const itemIndex=this.cartItems.findIndex(tempCartItem=>tempCartItem.id==theCartItem.id);
+
+    if(itemIndex>-1){
+      this.cartItems.splice(itemIndex,1);
+      this.computeCartTotals();
+    }
+  }
+  decrementQuantity(theCartItem:CartItem){
+    const itemIndex=this.cartItems.findIndex(tempCartItem=>tempCartItem.id==theCartItem.id);
+    if(itemIndex>-1){
+      this.cartItems[itemIndex].quantity--;
+      if(this.cartItems[itemIndex].quantity===0){
+        this.removeToCart(theCartItem);
+      }
+      this.computeCartTotals();
+    }
+  }
   computeCartTotals() {
     let totalPriceValue: number=0;
     let totalQuantityValue: number=0;
